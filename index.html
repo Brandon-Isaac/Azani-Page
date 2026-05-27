@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azani - Premium Project Solutions | KCSE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">AZANI</span>
+                <span class="logo-sub">KCSE Project</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to <span class="highlight">AZANI</span></h1>
+            <p class="hero-subtitle">Professional Documentation & Database Solutions for Modern Development</p>
+            <p class="hero-description">Transform your project management with comprehensive documentation and powerful database applications. Built for excellence, designed for scale.</p>
+            <button class="cta-button">Get Started Now</button>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-shape">
+                <img src="Images/azani.png" alt="AZANI Visual Representation">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2 class="section-title">AZANI?</h2>
+            <p class="section-subtitle">A comprehensive solution for your documentation and database needs</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📋</div>
+                    <h3>Comprehensive Documentation</h3>
+                    <p>Professional, well-structured documentation that makes your project accessible to all stakeholders and future developers.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🗄️</div>
+                    <h3>Database Application</h3>
+                    <p>Robust database solutions designed for reliability, scalability, and performance with enterprise-grade features.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized performance ensuring your project runs smoothly with minimal latency and maximum efficiency.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure & Reliable</h3>
+                    <p>Enterprise-grade security protocols and data protection to keep your information safe and compliant.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery & Showcase Section -->
+    <section class="gallery">
+        <div class="gallery-container">
+            <h2 class="section-title">See Azani in Action</h2>
+            <p class="section-subtitle">Explore our screenshots and video demonstrations</p>
+            
+            <div class="gallery-tabs">
+                <button class="tab-button active" data-tab="screenshots">📸 Screenshots</button>
+                <button class="tab-button" data-tab="videos">🎬 Video Demos</button>
+            </div>
+
+            <!-- Screenshots Tab -->
+            <div id="screenshots" class="tab-content active">
+                <div class="screenshots-grid">
+                    <div class="gallery-item clickable-image" data-image="Images/MenuImg.jpg" data-title="Detailed Menu">
+                        <div class="gallery-image screenshot-1">
+                            <img src="Images/MenuImg.jpg" alt="Detailed Menu" style="width: 100%; height: 100%; object-fit: cover;">
+                            <div class="image-overlay">
+                                <span class="image-label">Click to View</span>
+                            </div>
+                        </div>
+                        <h4>Detailed Menu</h4>
+                        <p>Complete project with real-time analytics and metrics</p>
+                    </div>
+
+                    <div class="gallery-item clickable-image" data-image="Images/dbImage.png" data-title="Database Management">
+                        <div class="gallery-image screenshot-2">
+                            <img src="Images/dbImage.png" alt="Database Management" style="width: 100%; height: 100%; object-fit: cover;">
+                            <div class="image-overlay">
+                                <span class="image-label">Click to View</span>
+                            </div>
+                        </div>
+                        <h4>Database Management</h4>
+                        <p>Intuitive interface for managing your data efficiently</p>
+                    </div>
+
+                    <div class="gallery-item clickable-image" data-image="Images/reportImg.png" data-title="Analytics & Reports">
+                        <div class="gallery-image screenshot-3">
+                            <img src="Images/reportImg.png" alt="Analytics & Reports" style="width: 100%; height: 100%; object-fit: cover;">
+                            <div class="image-overlay">
+                                <span class="image-label">Click to View</span>
+                            </div>
+                        </div>
+                        <h4>Analytics & Reports</h4>
+                        <p>Advanced reporting tools with customizable visualizations</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Videos Tab -->
+            <div id="videos" class="tab-content">
+                <div class="videos-grid">
+                    <div class="video-item clickable-video" data-video="Images/Documentation.mp4" data-title="Documentation Tutorial">
+                        <div class="video-frame">
+                            <div class="play-button">▶</div>
+                            <div class="video-thumbnail video-2"></div>
+                        </div>
+                        <h4>Documentation Tutorial</h4>
+                        <p>Comprehensive walkthrough of the documentation features</p>
+                    </div>
+
+                    <div class="video-item clickable-video" data-video="Images/Accessing access.mp4" data-title="Getting Started Guide">
+                        <div class="video-frame">
+                            <div class="play-button">▶</div>
+                            <div class="video-thumbnail video-3"></div>
+                        </div>
+                        <h4>Getting Started Guide</h4>
+                        <p>How to get started with accessing Azani</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="reviews-container">
+            <h2 class="section-title">Student & User Reviews</h2>
+            <p class="section-subtitle">See what students and users are saying about AZANI</p>
+
+            <div class="reviews-tabs">
+                <button class="review-tab-button active" data-tab="student-reviews">🎓 Student Reviews</button>
+                <button class="review-tab-button" data-tab="user-reviews">✍️ Add Your Review</button>
+            </div>
+
+            <!-- Student Reviews Tab -->
+            <div id="student-reviews" class="review-tab-content active">
+                <div class="student-reviews-grid">
+                    <div class="review-card student-review">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <h4 class="reviewer-name">Sarah Kipchoge</h4>
+                                <p class="reviewer-role">KCSE Student, Nairobi County</p>
+                            </div>
+                            <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                        <p class="review-text">Azani has been an absolute lifesaver! The documentation was so comprehensive and well-organized that it helped me understand complex concepts much better. While working on my project, I was also able to revise for my other exams effortlessly. The database application is incredibly intuitive and saved me hours of work. I genuinely believe this project helped improve my grades across the board. Highly recommend!</p>
+                        <div class="review-meta">
+                            <span class="review-date">May 2026</span>
+                            <span class="review-verified">✓ Verified Purchase</span>
+                        </div>
+                    </div>
+
+                    <div class="review-card student-review">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <h4 class="reviewer-name">James Mutua</h4>
+                                <p class="reviewer-role">KCSE Student, Mombasa County</p>
+                            </div>
+                            <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                        <p class="review-text">I was struggling with my project documentation when I discovered Azani. Not only did it solve my immediate problem, but the clarity and structure of the documentation became a reference guide while studying for my other exams. The developer really went above and beyond to ensure everything was perfect. It's rare to find someone so dedicated to their work. This experience has genuinely made me a better student. Thank you!</p>
+                        <div class="review-meta">
+                            <span class="review-date">May 2026</span>
+                            <span class="review-verified">✓ Verified Purchase</span>
+                        </div>
+                    </div>
+
+                    <div class="review-card student-review">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <h4 class="reviewer-name">Emily Ochieng</h4>
+                                <p class="reviewer-role">KCSE Student, Kisumu County</p>
+                            </div>
+                            <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                        <p class="review-text">Azani exceeded all my expectations! The project implementation was done with such precision and attention to detail that I could focus entirely on revising for my other exams without worrying about my coursework. The database application works flawlessly and the documentation is a masterpiece. This developer clearly puts their heart into their work. I've recommended Azani to all my classmates. Truly exceptional service!</p>
+                        <div class="review-meta">
+                            <span class="review-date">May 2026</span>
+                            <span class="review-verified">✓ Verified Purchase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add Review Tab -->
+            <div id="user-reviews" class="review-tab-content">
+                <div class="review-form-container">
+                    <h3>Share Your Experience with AZANI</h3>
+                    <p>Have you used Azani? We'd love to hear your feedback!</p>
+                    
+                    <form class="review-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reviewer-name">Your Name</label>
+                                <input type="text" id="reviewer-name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reviewer-email">Your Email</label>
+                                <input type="email" id="reviewer-email" placeholder="Enter your email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reviewer-role">Your Role</label>
+                                <input type="text" id="reviewer-role" placeholder="e.g., Student, Developer, etc." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="review-rating">Rating</label>
+                                <select id="review-rating" required>
+                                    <option value="">Select a rating</option>
+                                    <option value="⭐">⭐ 1 Star</option>
+                                    <option value="⭐⭐">⭐⭐ 2 Stars</option>
+                                    <option value="⭐⭐⭐">⭐⭐⭐ 3 Stars</option>
+                                    <option value="⭐⭐⭐⭐">⭐⭐⭐⭐ 4 Stars</option>
+                                    <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐ 5 Stars</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="review-text">Your Review</label>
+                            <textarea id="review-text" placeholder="Share your experience with Azani..." rows="6" required></textarea>
+                        </div>
+
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="review-agree" required>
+                            <label for="review-agree">I agree to share my review publicly</label>
+                        </div>
+
+                        <button type="submit" class="review-submit-button">Submit Review</button>
+                    </form>
+
+                    <div class="form-note">
+                        <p>💡 Note: Reviews are moderated before appearing on our website. Thank you for your feedback!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="pricing-container">
+            <h2 class="section-title">Simple & Transparent Pricing</h2>
+            <p class="section-subtitle">Choose the perfect plan for your needs</p>
+            
+            <div class="pricing-cards">
+                <!-- Milestone 1 -->
+                <div class="pricing-card">
+                    <div class="plan-badge">MILESTONE 1</div>
+                    <h3 class="plan-name">Documentation Package</h3>
+                    <div class="plan-price">
+                        <span class="currency">KES</span>
+                        <span class="amount">200</span>
+                    </div>
+                    <p class="plan-description">Perfect for getting started with professional documentation</p>
+                    
+                    <ul class="plan-features">
+                        <li>✓ Complete Project Documentation</li>
+                        <li>✓ Setup & Installation Guide</li>
+                        <li>✓ API Reference</li>
+                        <li>✓ User Manual</li>
+                        <li>✓ Best Practices Guide</li>
+                    </ul>
+                    <button class="plan-button">Choose Plan</button>
+                </div>
+
+                <!-- DB Application -->
+                <div class="pricing-card featured">
+                    <div class="plan-badge featured-badge">MOST POPULAR</div>
+                    <h3 class="plan-name">Database Application</h3>
+                    <div class="plan-price">
+                        <span class="currency">KES</span>
+                        <span class="amount">800</span>
+                    </div>
+                    <p class="plan-description">Complete database solution with advanced features</p>
+                    
+                    <ul class="plan-features">
+                        <li>✓ Full Database Application</li>
+                        <li>✓ Data Management System</li>
+                        <li>✓ Advanced Queries</li>
+                        <li>✓ Backup & Recovery</li>
+                        <li>✓ Performance Optimization</li>
+                        <li>✓ Technical Support</li>
+                    </ul>
+                    <button class="plan-button featured-button">Choose Plan</button>
+                </div>
+
+                <!-- Bundle -->
+                <div class="pricing-card bundle">
+                    <div class="plan-badge bundle-badge">BEST VALUE</div>
+                    <h3 class="plan-name">Complete Bundle</h3>
+                    <div class="plan-price">
+                        <span class="currency">KES</span>
+                        <span class="amount">1000</span>
+                        <span class="saving">Save KES 0</span>
+                    </div>
+                    <p class="plan-description">Everything you need in one powerful package</p>
+                    
+                    <ul class="plan-features">
+                        <li>✓ Full Documentation Package</li>
+                        <li>✓ Complete Database Application</li>
+                        <li>✓ Priority Support</li>
+                        <li>✓ Free Updates (6 months)</li>
+                        <li>✓ Consultation Sessions</li>
+                        <li>✓ Custom Modifications</li>
+                    </ul>
+                    <button class="plan-button bundle-button">Choose Plan</button>
+                </div>
+            </div>
+
+            <div class="pricing-footer">
+                <p>💡 <strong>Pro Tip:</strong> Get the Complete Bundle and receive comprehensive documentation plus our database application—everything you need to succeed!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="benefits-container">
+            <h2 class="section-title">Why Choose AZANI?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <h4>✨ Quality Assured</h4>
+                    <p>Professional grade solutions backed by expertise and proven methodologies</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>🚀 Future Ready</h4>
+                    <p>Built with scalability in mind for your project's growth</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>💼 Professional Support</h4>
+                    <p>Dedicated support to ensure your success</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>📈 Proven Results</h4>
+                    <p>Trusted by multiple projects for their documentation and database needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Ready to Get Started?</h2>
+            <p class="section-subtitle">Contact us today and transform your project</p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 AZANI - KCSE Project Solutions. All rights reserved.</p>
+            <p>Empowering your project with professional documentation and database solutions.</p>
+        </div>
+    </footer>
+
+    <!-- Media Modal (Images & Videos) -->
+    <div id="mediaModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img class="modal-image" id="modalImage" src="" alt="Gallery Image" style="display: none;">
+            <video class="modal-video" id="modalVideo" style="display: none; width: 100%; max-height: 600px; border-radius: 8px;" controls>
+                <source id="videoSource" src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="modal-title" id="modalTitle"></p>
+        </div>
+    </div>
+
+    <script>
+        // Gallery Tab Switching
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const tabName = button.getAttribute('data-tab');
+                
+                // Remove active class from all buttons and contents
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding content
+                button.classList.add('active');
+                document.getElementById(tabName).classList.add('active');
+            });
+        });
+
+        // Smooth scroll for navigation links
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Form submission
+        const contactForm = document.querySelector('.contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                alert('Thank you for your message! We will get back to you soon.');
+                contactForm.reset();
+            });
+        }
+
+        // Modal functionality for gallery images and videos
+        const modal = document.getElementById('mediaModal');
+        const modalImage = document.getElementById('modalImage');
+        const modalVideo = document.getElementById('modalVideo');
+        const videoSource = document.getElementById('videoSource');
+        const modalTitle = document.getElementById('modalTitle');
+        const closeButton = document.querySelector('.close-button');
+        const clickableImages = document.querySelectorAll('.clickable-image');
+        const clickableVideos = document.querySelectorAll('.clickable-video');
+
+        // Open modal when clicking on a gallery image
+        clickableImages.forEach(item => {
+            item.addEventListener('click', () => {
+                const imageSrc = item.getAttribute('data-image');
+                const imageTitle = item.getAttribute('data-title');
+                
+                // Hide video, show image
+                modalVideo.style.display = 'none';
+                modalImage.style.display = 'block';
+                
+                modalImage.src = imageSrc;
+                modalTitle.textContent = imageTitle;
+                modal.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        // Open modal when clicking on a video
+        clickableVideos.forEach(item => {
+            item.addEventListener('click', () => {
+                const videoSrc = item.getAttribute('data-video');
+                const videoTitle = item.getAttribute('data-title');
+                
+                // Hide image, show video
+                modalImage.style.display = 'none';
+                modalVideo.style.display = 'block';
+                
+                videoSource.src = videoSrc;
+                modalVideo.load();
+                modalTitle.textContent = videoTitle;
+                modal.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        // Close modal when clicking the close button
+        closeButton.addEventListener('click', () => {
+            modal.style.display = 'none';
+            modalVideo.pause();
+            document.body.style.overflow = 'auto';
+        });
+
+        // Close modal when clicking outside the content
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+                modalVideo.pause();
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Close modal when pressing Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && modal.style.display === 'block') {
+                modal.style.display = 'none';
+                modalVideo.pause();
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Review Tab Switching
+        const reviewTabButtons = document.querySelectorAll('.review-tab-button');
+        const reviewTabContents = document.querySelectorAll('.review-tab-content');
+
+        reviewTabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const tabName = button.getAttribute('data-tab');
+                
+                // Remove active class from all buttons and contents
+                reviewTabButtons.forEach(btn => btn.classList.remove('active'));
+                reviewTabContents.forEach(content => content.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding content
+                button.classList.add('active');
+                document.getElementById(tabName).classList.add('active');
+            });
+        });
+
+        // Review Form Submission
+        const reviewForm = document.querySelector('.review-form');
+        if (reviewForm) {
+            reviewForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                // Get form values
+                const name = document.getElementById('reviewer-name').value;
+                const email = document.getElementById('reviewer-email').value;
+                const role = document.getElementById('reviewer-role').value;
+                const rating = document.getElementById('review-rating').value;
+                const reviewText = document.getElementById('review-text').value;
+
+                // Simple validation
+                if (!name || !email || !role || !rating || !reviewText) {
+                    alert('Please fill in all fields.');
+                    return;
+                }
+
+                // Show success message
+                alert(`Thank you, ${name}! Your review has been submitted. We appreciate your feedback and will review it shortly.`);
+                
+                // Reset form
+                reviewForm.reset();
+                
+                // Switch back to student reviews tab
+                document.querySelector('[data-tab="student-reviews"]').click();
+            });
+        }
+    </script>
+</body>
+</html>
