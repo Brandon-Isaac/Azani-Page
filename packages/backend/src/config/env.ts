@@ -28,7 +28,13 @@ const envSchema = z.object({
 
 const parsed = envSchema.parse(normalizeEnv(process.env));
 
+/** Browsers send Origin without a trailing slash; CORS must match exactly. */
+function stripTrailingSlash(url: string): string {
+  return url.replace(/\/+$/, '');
+}
+
 export const env = {
   ...parsed,
+  FRONTEND_URL: stripTrailingSlash(parsed.FRONTEND_URL),
   hasPaystackSecret: Boolean(parsed.PAYSTACK_SECRET_KEY),
 };
