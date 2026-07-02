@@ -19,11 +19,11 @@ export const PLANS: Plan[] = [
   {
     id: 'complete-bundle',
     name: 'Complete Bundle',
-    priceKes: 1100,
+    priceKes: 1350,
     description: 'Everything you need in one powerful package',
     badge: 'BEST VALUE',
     bundle: true,
-    savingLabel: 'Save KES 400',
+    savingLabel: 'Save KES 150',
   },
 ];
 
