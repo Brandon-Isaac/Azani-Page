@@ -3,7 +3,7 @@ import type { Plan } from './types/order.js';
 export const PLANS: Plan[] = [
   {
     id: 'doc-package',
-    name: 'Documentation Package',
+    name: 'Documentation Deposit',
     priceKes: 100,
     description: 'Perfect for getting started with professional documentation',
     badge: 'MILESTONE 1',
