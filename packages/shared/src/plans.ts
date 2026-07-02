@@ -4,7 +4,7 @@ export const PLANS: Plan[] = [
   {
     id: 'doc-package',
     name: 'Documentation Package',
-    priceKes: 500,
+    priceKes: 100,
     description: 'Perfect for getting started with professional documentation',
     badge: 'MILESTONE 1',
   },
